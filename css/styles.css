@@ -1,0 +1,72 @@
+/* VARIABLES */
+
+:root {
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --font-black: 900;
+
+  --primary-light-color: #fff;
+  --primary-dark-color: #212121;
+  --secondary-dark-color: #757575;
+  --accent-light-color: #2196f3;
+  --accent-dark-color: #000;
+}
+
+/* GLOBAL INHERITANCE */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: var(--font-regular);
+  font-size: 14px;
+  line-height: 1.72;
+
+  background-color: var(--primary-light-color);
+  color: var(--secondary-dark-color);
+}
+
+/* GLOBAL */
+
+.interactive-link:hover,
+.interactive-link:focus {
+  color: var(--accent-light-color);
+  cursor: pointer;
+}
+
+/* RESETTERS */
+
+a {
+  color: inherit;
+}
+
+.unmarked-list {
+  list-style: none;
+}
+
+.no-decor-link {
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.logo {
+  font-weight: var(--font-bold);
+  font-size: 26px;
+  line-height: 1.17;
+
+  color: var(--accent-dark-color);
+}
+
+.logo-accent {
+  color: var(--accent-light-color);
+}
+
+.header-links {
+  color: var(--primary-dark-color);
+  font-weight: var(--font-medium);
+  line-height: 1.17;
+}
+
+/* FOOTER */
+
+/* MAIN PAGE STYLES */
