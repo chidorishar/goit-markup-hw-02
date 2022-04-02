@@ -62,9 +62,18 @@ body {
 .text-accent-light-color {
   color: var(--accent-light-color);
 }
-
 .text-accent-light{
   color: var(--primary-light-color);
+}
+
+.title{
+  font-weight: var(--font-bold);
+  font-size: 36px;
+  line-height: 1.17;
+
+  text-align: center;
+
+  color: var(--primary-dark-color);
 }
 
 /* HEADER */
@@ -84,7 +93,7 @@ body {
 }
 
 .footer-address{
-  line-height: 1,7;
+  line-height: 1.7;
 }
 
 .address-mail, .address-phone{
@@ -92,3 +101,45 @@ body {
 }
 
 /* MAIN PAGE STYLES */
+
+.section-hero{
+  background-color: var(--background-dark-color);
+  color: var(--primary-light-color);
+}
+
+.hero-title
+{
+  font-weight: var(--font-black);
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-team{
+  font-size: 16px;
+  line-height: 1.17;
+
+  text-align: center;
+
+  background-color: var(--background-light-color);
+}
+
+.section-advantages .subtitle {
+  font-weight: var(--font-bold);
+  font-size: 14px;
+  line-height: 1.17;
+  
+  text-transform: uppercase;
+
+  color: var(--primary-dark-color);
+}
+
+.section-team .subtitle {
+  font-size: inherit;
+  font-weight: var(--font-bold);
+
+  color: var(--primary-dark-color);
+}
