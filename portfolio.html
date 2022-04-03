@@ -23,28 +23,30 @@
         <a class="logo clean-link" href="./index.html" lang="en"
           ><span class="text-accent-light-color">Web</span>Studio</a
         >
-        <ul class="header-pages-list unmarked-list">
-          <li>
+        <ul class="pages-list unmarked-list">
+          <li class="page-studio">
             <a class="clean-link interactive-link" href="./index.html">Студия</a>
           </li>
-          <li>
+          <li class="page-portfolio">
             <a class="clean-link interactive-link text-accent-light-color" href="./portfolio.html"
               >Портфолио</a
             >
           </li>
-          <li><a class="clean-link interactive-link" href="">Контакты</a></li>
+          <li class="page-contacts"><a class="clean-link interactive-link" href="">Контакты</a></li>
         </ul>
       </nav>
 
       <!-- CONTACTS -->
       <ul class="header-contacts unmarked-list">
         <li>
-          <a class="clean-link interactive-link" href="mailto:info@devstudio.com"
+          <a class="contacts-mail-link clean-link interactive-link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="clean-link interactive-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contacts-phone-link clean-link interactive-link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
@@ -52,125 +54,136 @@
     <!-- MAIN -->
     <main>
       <!-- Portfolio section -->
-      <section>
+      <section class="section-portfolio">
         <!-- HERO -->
         <h1 hidden>Портфолио</h1>
         <!-- filters -->
-        <ul class="unmarked-list">
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="filters-list unmarked-list">
+          <li class="filter-all"><button class="button" type="button">Все</button></li>
+          <li class="filter-sites"><button class="button" type="button">Веб-сайты</button></li>
+          <li class="filter-applications">
+            <button class="button" type="button">Приложения</button>
+          </li>
+          <li class="filter-design"><button class="button" type="button">Дизайн</button></li>
+          <li class="filter-marketing"><button class="button" type="button">Маркетинг</button></li>
         </ul>
         <!-- Cards -->
-        <ul class="unmarked-list">
-          <li>
-            <a class="clean-link" href="./">
+        <ul class="portfolio-cards unmarked-list">
+          <li class="card-1">
+            <a class="card-link clean-link" href="./">
               <img
+                class="card-img"
                 src="./images/Portfolio/technocrack.jpg"
                 alt="Ноутбук с открытой страницой веб-сайта в браузере"
                 width="370"
                 height="294"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="subtitle">Технокряк</h2>
+              <p class="filter-description">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a class="clean-link" href="./">
+          <li class="card-2">
+            <a class="card-link clean-link" href="./">
               <img
+                class="card-img"
                 src="./images/Portfolio/basketball-players.jpg"
                 alt="Двое баскетболистов борются за мяч"
                 width="370"
                 height="294"
               />
-              <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+              <h2 class="subtitle">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+              <p class="filter-description">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a class="clean-link" href="./">
+          <li class="card-3">
+            <a class="card-link clean-link" href="./">
               <img
+                class="card-img"
                 src="./images/Portfolio/seafood.jpg"
                 alt="Название-логотип ресторана на фоне силуэта рыбы"
                 width="370"
                 height="294"
               />
-              <h2>Ресторан <span lang="en">Seafood</span></h2>
-              <p>Приложение</p>
+              <h2 class="subtitle">Ресторан <span lang="en">Seafood</span></h2>
+              <p class="filter-description">Приложение</p>
             </a>
           </li>
-          <li>
-            <a class="clean-link" href="./">
+          <li class="card-4">
+            <a class="card-link clean-link" href="./">
               <img
+                class="card-img"
                 src="./images/Portfolio/headphones.jpg"
                 alt="Чёрные наушники"
                 width="370"
                 height="294"
               />
-              <h2>Проект <span lang="en">Prime</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="subtitle">Проект <span lang="en">Prime</span></h2>
+              <p class="filter-description">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a class="clean-link" href="./">
+          <li class="card-5">
+            <a class="card-link clean-link" href="./">
               <img
+                class="card-img"
                 src="./images/Portfolio/boxes.jpg"
                 alt="Две коробки лежат на плоскости"
                 width="370"
                 height="294"
               />
-              <h2>Проект <span lang="en">Boxes</span></h2>
-              <p>Приложение</p>
+              <h2 class="subtitle">Проект <span lang="en">Boxes</span></h2>
+              <p class="filter-description">Приложение</p>
             </a>
           </li>
-          <li>
-            <a class="clean-link" href="./">
+          <li class="card-6">
+            <a class="card-link clean-link" href="./">
               <img
+                class="card-img"
                 src="./images/Portfolio/no-borders.jpg"
                 alt="На мониторе отображается открытая страница веб-сайта"
                 width="370"
                 height="294"
               />
-              <h2 lang="en">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="subtitle" lang="en">Inspiration has no Borders</h2>
+              <p class="filter-description">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a class="clean-link" href="./">
+          <li class="card-7">
+            <a class="card-link clean-link" href="./">
               <img
+                class="card-img"
                 src="./images/Portfolio/book.jpg"
                 alt="Разворот лежащей книги"
                 width="370"
                 height="294"
               />
               <h2>Издание <span lang="en">Limited Edition</span></h2>
-              <p>Дизайн</p>
+              <p class="filter-description">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a class="clean-link" href="./">
+          <li class="card-8">
+            <a class="card-link clean-link" href="./">
               <img
+                class="card-img"
                 src="./images/Portfolio/tag.jpg"
                 alt="Висящая бирка с английской надписью чёрным шрифтом"
                 width="370"
                 height="294"
               />
-              <h2>Проект <span lang="en">LAB</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="subtitle">Проект <span lang="en">LAB</span></h2>
+              <p class="filter-description">Маркетинг</p>
             </a>
           </li>
-          <li>
-            <a class="clean-link" href="./">
+          <li class="card-9">
+            <a class="card-link clean-link" href="./">
               <img
+                class="card-img"
                 src="./images/Portfolio/growing-business.jpg"
                 alt="Человек работает в приложении за ноутбуком"
                 width="370"
                 height="294"
               />
-              <h2 lang="en">Growing Business</h2>
-              <p>Приложение</p>
+              <h2 class="subtitle" lang="en">Growing Business</h2>
+              <p class="filter-description">Приложение</p>
             </a>
           </li>
         </ul>
