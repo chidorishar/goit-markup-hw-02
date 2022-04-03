@@ -78,11 +78,13 @@ body {
 
 /* HEADER */
 
-.header-pages-list {
+.header{
   font-weight: var(--font-medium);
   line-height: 1.14;
   letter-spacing: 0.02em;
-  
+}
+
+.header-pages-list{
   color: var(--primary-dark-color);
 }
 
@@ -93,7 +95,7 @@ body {
 }
 
 .footer-address{
-  line-height: 1.7;
+  line-height: 1.71;
 }
 
 .address-mail, .address-phone{
@@ -118,15 +120,6 @@ body {
   text-transform: uppercase;
 }
 
-.section-team{
-  font-size: 16px;
-  line-height: 1.17;
-
-  text-align: center;
-
-  background-color: var(--background-light-color);
-}
-
 .section-advantages .subtitle {
   font-weight: var(--font-bold);
   font-size: 14px;
@@ -137,9 +130,18 @@ body {
   color: var(--primary-dark-color);
 }
 
+.section-team{
+  font-size: 16px;
+  line-height: 1.17;
+
+  text-align: center;
+
+  background-color: var(--background-light-color);
+}
+
 .section-team .subtitle {
+  font-weight: var(--font-medium);
   font-size: inherit;
-  font-weight: var(--font-bold);
 
   color: var(--primary-dark-color);
 }
