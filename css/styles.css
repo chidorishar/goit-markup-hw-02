@@ -200,7 +200,7 @@ body {
   color: var(--primary-dark-color);
 }
 
-.portfolio-cards .filter-description {
+.portfolio-cards .description-filter {
   font-size: 16px;
   line-height: 1.875;
 }
